@@ -1,15 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-    <channel>
-        <title>Test Website Feed</title>
-        <link>http://example.com/feed.xml</link>
-        <description>This is a test feed for the website</description>
-        <!-- Repeat for 15 items -->
-        <item>
-            <title>Article Title 1</title>
-            <link>http://example.com/articles/article1.html</link>
-            <description>Article teaser...</description>
-            <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-        </item>
-    </channel>
-</rss>
+
+                <?xml version="1.0" encoding="UTF-8"?>
+                <rss version="2.0">
+                    <channel>
+                        <title>Article Feed</title>
+                        <link>http://yourwebsite.com/feed.xml</link>
+                        <description>This is an example feed</description>
+                        
+                    <item>
+                        <title>Sample Article 1</title>
+                        <link>http://yourwebsite.com/articles/article1.html</link>
+                        <description>This is a summary of article 1.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 2</title>
+                        <link>http://yourwebsite.com/articles/article2.html</link>
+                        <description>This is a summary of article 2.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 3</title>
+                        <link>http://yourwebsite.com/articles/article3.html</link>
+                        <description>This is a summary of article 3.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 4</title>
+                        <link>http://yourwebsite.com/articles/article4.html</link>
+                        <description>This is a summary of article 4.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 5</title>
+                        <link>http://yourwebsite.com/articles/article5.html</link>
+                        <description>This is a summary of article 5.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 6</title>
+                        <link>http://yourwebsite.com/articles/article6.html</link>
+                        <description>This is a summary of article 6.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 7</title>
+                        <link>http://yourwebsite.com/articles/article7.html</link>
+                        <description>This is a summary of article 7.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 8</title>
+                        <link>http://yourwebsite.com/articles/article8.html</link>
+                        <description>This is a summary of article 8.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 9</title>
+                        <link>http://yourwebsite.com/articles/article9.html</link>
+                        <description>This is a summary of article 9.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 10</title>
+                        <link>http://yourwebsite.com/articles/article10.html</link>
+                        <description>This is a summary of article 10.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 11</title>
+                        <link>http://yourwebsite.com/articles/article11.html</link>
+                        <description>This is a summary of article 11.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 12</title>
+                        <link>http://yourwebsite.com/articles/article12.html</link>
+                        <description>This is a summary of article 12.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 13</title>
+                        <link>http://yourwebsite.com/articles/article13.html</link>
+                        <description>This is a summary of article 13.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 14</title>
+                        <link>http://yourwebsite.com/articles/article14.html</link>
+                        <description>This is a summary of article 14.</description>
+                    </item>
+
+                    <item>
+                        <title>Sample Article 15</title>
+                        <link>http://yourwebsite.com/articles/article15.html</link>
+                        <description>This is a summary of article 15.</description>
+                    </item>
+                    </channel>
+                </rss>
+                
