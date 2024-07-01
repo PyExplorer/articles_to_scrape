@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Test Website</h1>
+    </header>
+    <main>
+        <section class="articles">
+            <h2>Latest Articles</h2>
+            <article class="article--post">
+                <header>
+                    <div class="article--post__image">
+                        <img src="https://via.placeholder.com/100" alt="Author Image">
+                    </div>
+                    <span class="article--post__author-name"><a href="#">Author Name</a></span>
+                </header>
+                <h2 class="article--post__title"><a href="articles/article1.html">Article Title 1</a></h2>
+                <footer class="article--post__stats">
+                    <ul>
+                        <li class="article--post__reading-time">5 min read</li>
+                        <li class="article--post__comments-count">0 comments</li>
+                    </ul>
+                </footer>
+                <div class="article--post__content">
+                    <p class="article--post__teaser">Article teaser...</p>
+                </div>
+            </article>
+            <!-- Repeat for 9 more articles -->
+        </section>
+        <section class="subcategories">
+            <h2>Subcategories</h2>
+            <ul>
+                <li><a href="subcategories/subcategory1/index.html">Subcategory 1</a></li>
+                <li><a href="subcategories/subcategory2/index.html">Subcategory 2</a></li>
+                <li><a href="subcategories/subcategory3/index.html">Subcategory 3</a></li>
+                <li><a href="subcategories/subcategory4/index.html">Subcategory 4</a></li>
+                <li><a href="subcategories/subcategory5/index.html">Subcategory 5</a></li>
+            </ul>
+        </section>
+        <nav class="pagination">
+            <a href="page2.html">Next Page</a>
+        </nav>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
