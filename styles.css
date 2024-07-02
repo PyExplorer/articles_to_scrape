@@ -1,0 +1,168 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d3d3d3;
+}
+
+.pagination {
+    margin-top: 20px; /* Adjust as needed */
+    text-align: center; /* Centers the pagination links */
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 5px; /* Adjust spacing between links */
+    padding: 8px 16px;
+    background-color: #f0f0f0; /* Background color */
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #ddd; /* Hover background color */
+}
+
+
+/* Navigation styles */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #d3d3d3;
+}
+
+/* Article styles */
+article {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d3d3d3;
+}
+
+article h1, article h2 {
+    color: #333;
+}
+
+.article__author-name, .article--post__author-name {
+    font-weight: bold;
+}
+
+.article__stats ul, .article--post__stats ul {
+    padding: 0;
+    list-style: none;
+}
+
+.article__stats li, .article--post__stats li {
+    margin-right: 10px;
+    text-align: left;
+}
+
+.article__content, .article--post__content {
+    margin-top: 20px;
+}
+
+.read-more-link {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.read-more-link:hover {
+    color: #f00;
+}
+
+/* Video and audio styles */
+.videos, .audios {
+    margin-top: 20px;
+}
+
+.videos video, .audios audio {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Author image styles */
+.bio-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio-image-wrapper picture {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.bio-image-wrapper img {
+    border-radius: 50%;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav {
+    padding: 10px 0;
+    margin: 0;
+    background: lightgrey;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .content {
+        width: 95%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
